@@ -5,7 +5,7 @@ $notebook: new-breakpoint(min-width 1024px);
 $desktop: new-breakpoint(min-width 1100px);
 
 
-$imgPath: /wp-content/themes/revere-pattern/images;
+// $imgPath: /wp-content/themes/revere-pattern/images;
 
 @mixin maxWidth {
 	max-width:980px;
