@@ -1,13 +1,13 @@
 table{
-	margin: 1.5em 0 1em;
-	width: 100%;
-	font-weight: 300;
-	font-size: 1em;
-	text-align: left;
-	border-collapse: collapse;
-  	border-spacing: 0;
-	white-space: nowrap;
-	table-layout:fixed;
+	// margin: 1.5em 0 1em;
+	// width: 100%;
+	// font-weight: 300;
+	// font-size: 1em;
+	// text-align: left;
+	// border-collapse: collapse;
+  // 	border-spacing: 0;
+	// white-space: nowrap;
+	// table-layout:fixed;
 	colgroup{
 		display: none;
 		@include media($tablet) {
@@ -44,7 +44,7 @@ table{
     &:first-of-type {
       @include media($tablet) {
         border-top-width: 0;
-      }      
+      }
     }
 	}
 	th{
