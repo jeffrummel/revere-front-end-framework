@@ -11,7 +11,7 @@ html {
 html, body {
   min-height: 100% !important;
 	min-width: 320px;
-	background-color: $greydk;
+	background-color: #202123;
   line-height:1.125em;
 }
 body {
@@ -131,7 +131,7 @@ p {
       @include animation(wide-modal .2s 0s linear forwards);
       .content {
         @include animation-delay(.5s);
-      }      
+      }
     }
   }
 }
