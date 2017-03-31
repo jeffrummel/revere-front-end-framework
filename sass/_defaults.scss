@@ -14,7 +14,7 @@ html, body {
 	background-color: #202123;
   line-height:1.125em;
 }
-body {
+body, div.sync {
   display:table;
   overflow-x:hidden;
   &.app {
